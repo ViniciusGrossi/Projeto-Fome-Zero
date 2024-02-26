@@ -147,7 +147,7 @@ def cities_restaurants_deliver_online(df1):
     fig = px.bar(df_aux.head(num_cities), x='City', y='Restaurant ID', color= 'Country Name' )
     return fig
 
-df = pd.read_csv('C:/Users/vinic/Documents/Data Science/Data Analysis/Comunidade DS/Projeto-Final/dataset/zomato.csv')
+df = pd.read_csv('dataset/zomato.csv')
 df1 = clean_code(df)
 #------------------Sidebar----------------------
 
