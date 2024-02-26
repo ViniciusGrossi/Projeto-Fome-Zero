@@ -71,7 +71,7 @@ def clean_code (df1):
     df1['Colors'] = df1['Rating color'].apply(color_name)
     return df1
 def sidebar(df1):
-    all_countries = st.sidebar.toggle(
+    all_countries = st.sidebar.checkbox(
         'All Countries',      
     )
     if all_countries:
