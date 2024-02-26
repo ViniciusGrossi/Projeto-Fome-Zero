@@ -72,7 +72,7 @@ def clean_code (df1):
     return df1
 def sidebar(df1):
     num_cities = None
-    all_countries = st.sidebar.toggle(
+    all_countries = st.sidebar.checkbox(
         'All Countries',      
     )
     if all_countries:
