@@ -114,7 +114,7 @@ def cuisines_most_online_delivery(df1):
         fig = px.bar(df_aux.head(num_cuisines), x='Cuisines', y= 'Restaurant Name')
         return fig 
 
-df = pd.read_csv('C:/Users/vinic/Documents/Data Science/Data Analysis/Comunidade DS/Projeto-Final/dataset/zomato.csv')
+df = pd.read_csv('dataset/zomato.csv')
 df1 = clean_code(df)
 
 #------------------Sidebar----------------------
