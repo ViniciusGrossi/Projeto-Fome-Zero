@@ -76,7 +76,7 @@ def clean_code (df1):
 def sidebar(df1):
     st.sidebar.header('Fome Zero')
 
-    all_countries = st.sidebar.toggle(
+    all_countries = st.sidebar.checkbox(
         'All Countries',      
     )
     if all_countries:
