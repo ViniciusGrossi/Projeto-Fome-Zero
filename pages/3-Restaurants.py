@@ -150,7 +150,7 @@ def dont_accept_table_booking(df1):
     metric_not_table_booking = round(df_aux_not_table_booking['Cost_in_Dollar'].mean())
     return fig, metric_not_table_booking
 
-df = pd.read_csv('C:/Users/vinic/Documents/Data Science/Data Analysis/Comunidade DS/Projeto-Final/dataset/zomato.csv')
+df = pd.read_csv('dataset/zomato.csv')
 df1 = clean_code(df)
 
 #------------------Sidebar----------------------
