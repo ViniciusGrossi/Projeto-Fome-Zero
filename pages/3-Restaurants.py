@@ -84,7 +84,7 @@ def sidebar(df1):
         )
     df_filtered = df1[df1['Country Name'].isin(filter_countries)]
 
-    all_cuisines = st.sidebar.toggle(
+    all_cuisines = st.sidebar.checkbox(
         'All Cuisines',      
     )
     if all_cuisines:
@@ -98,7 +98,7 @@ def sidebar(df1):
     df_filtered = df1[df1['Cuisines'].isin(filter_cuisines)]
 
     st.sidebar.markdown("""___""")
-    all_cities = st.sidebar.toggle(
+    all_cities = st.sidebar.checkbox(
         'All Cities',      
     )
     total_cities = len(df1['City'])
