@@ -158,7 +158,7 @@ Algumas visões também foram separadas em visões gerais e visões específicas
 
 Painel online, hospedado em uma Cloud e disponível para acesso em qualquer dispositivo conectado a internet.
 
-O painel pode ser acessado através desse link: 
+O painel pode ser acessado através desse link: https://projeto-fome-zero.streamlit.app
 
 # 6. Conclusão
 
