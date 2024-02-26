@@ -147,7 +147,7 @@ def countries_average_votes(df1):
     return fig
 
 
-df = pd.read_csv('C:/Users/vinic/Documents/Data Science/Data Analysis/Comunidade DS/Projeto-Final/dataset/zomato.csv')
+df = pd.read_csv('dataset/zomato.csv')
 df1 = clean_code(df)
 
 #------------------Sidebar----------------------
