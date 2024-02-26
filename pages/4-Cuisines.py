@@ -70,7 +70,7 @@ def clean_code (df1):
     df1['Colors'] = df1['Rating color'].apply(color_name)
     return df1
 def sidebar (df1):
-    worsts = st.sidebar.toggle('The Worts')
+    worsts = st.sidebar.checkbox('The Worts')
     num_cuisines = st.sidebar.slider(
             "Number of cuisines", 1, 50, 5
         )
