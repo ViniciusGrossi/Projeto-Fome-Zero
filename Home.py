@@ -127,7 +127,7 @@ def map(df1_filtered):
     folium_static(map,width=1024,height=600)
     return index
 
-df = pd.read_csv('C:/Users/vinic/Documents/Data Science/Data Analysis/Comunidade DS/Projeto-Final/dataset/zomato.csv')
+df = pd.read_csv('dataset/zomato.csv')
 df1 = clean_code(df)
 #------------------Sidebar----------------------
 filter_countries = sidebar(df1)
