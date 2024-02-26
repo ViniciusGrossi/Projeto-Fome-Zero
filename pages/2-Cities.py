@@ -89,7 +89,7 @@ def sidebar(df1):
 
     st.sidebar.markdown("""___""")
 
-    all_cities = st.sidebar.toggle(
+    all_cities = st.sidebar.checkbox(
         'All Cities',      
     )
     total_cities = len(df1['City'])
